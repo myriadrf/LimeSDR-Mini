@@ -1,0 +1,7 @@
+DRC Rules Export File for PCB: D:\Aleksandr\Desktop\LimeSDR_Mini_1v0_Rounded_DFMr1\PCB\LimeSDR_Mini_1v0_Rounded_panel.PcbDoc
+RuleKind=ShortCircuit|RuleName=FPGA_L11_PIN|Scope=Board|Allowed=1
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.97
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=3.94
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.94
+RuleKind=Width|RuleName=Width_ClumsyConnection|Scope=Board|Minimum=3.94

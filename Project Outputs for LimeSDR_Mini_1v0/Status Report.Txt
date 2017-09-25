@@ -1,0 +1,10 @@
+Output: Electrical Rules Check
+Type  : ERC
+From  : Project [LimeSDR_Mini_1v0.PrjPcb]
+   Generated File[LimeSDR_Mini_1v0.html]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 12:20:39 On 2017-09-22
