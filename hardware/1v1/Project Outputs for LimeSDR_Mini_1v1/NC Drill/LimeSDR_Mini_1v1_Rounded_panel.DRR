@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: LimeSDR_Mini_1v1_Rounded_panel.PcbDoc   2017-11-28  12:34:06
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top to Bottom
+ASCII RoundHoles File : LimeSDR_Mini_1v1_Rounded_panel-RoundHoles.TXT
+ASCII SlotHoles File : LimeSDR_Mini_1v1_Rounded_panel-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             3108      PTH        4333.01mm (170.59inch)
+T2      1mm (39mil)                                               Round             56        PTH        304.84mm (12.00inch)
+T3      1mm (39mil)                                               Slot              8         PTH        253.94mm (10.00inch)
+T4      2mm (79mil)                                               Round             8         PTH        134.48mm (5.29inch)
+T5      0.8mm (31mil)                                             Round             32        NPTH       497.83mm (19.60inch)
+T6      1.1mm (43mil)                                             Round             8         NPTH       113.61mm (4.47inch)
+T7      3mm (118mil)                                              Round             16        NPTH       318.48mm (12.54inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              3236
+
+Total Processing Time (hh:mm:ss) : 00:00:03
