@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 12:36:28 On 2019-06-05
+
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [LimeSDR_Mini_1v3_Rounded_panel.PcbDoc]
+   Generated File[Pick Place for LimeSDR_Mini_1v3_Rounded_panel.txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 12:36:29 On 2019-06-05

@@ -1,0 +1,14 @@
+Changes:
+
+LimeSDR_Mini_1v2_DB_DFMr2:
+ - R44 made NF (BOM version)
+ - LimeSDR_Mini_1v2_schematic_r2.PDF generated
+ - LimeSDR_Mini_1v2_BOMr2.xls updated
+ 
+LimeSDR_Mini_1v3:
+ - Initial version from LimeSDR_Mini_1v2_DB_DFMr2
+ - 1.8V and 3.3V rail LDOs changed
+ - Capacitors C194 and C195 added for LMS power
+ - HW version changed (affects only PCB physical pin connection)
+ - BOM version changed (R44 is now fit)
+ - Layout improvements (FT connection)
