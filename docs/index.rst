@@ -1,5 +1,5 @@
 Introduction
-============
+############
 
 .. toctree::
    :maxdepth: 2
@@ -19,7 +19,7 @@ The digital processing architecture incorporates a Intel MAX 10 FPGA, which perf
 
 Connectivity is provided through a USB 3.0 interface, ensuring reliable high-throughput data transfer to a host computer. The platform is supported by established open-source software frameworks, including GNU Radio, `WSDR.IO <https://wsdr.io/>`_ and SoapySDR, facilitating integration into diverse development environments.
 
-pecifications
+Specifications
 **************
 
 RF
