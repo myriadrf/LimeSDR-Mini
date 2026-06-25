@@ -43,6 +43,10 @@ The directory structure is as follows:
           Project Outputs/       - BOM, rule check reports, Gerbers, pick & place files, PDFs
           Schematics/            - Schematic diagrams
 
+## Hardware Viewer
+
+The PCB layout can be inspected in a browser with [ECAD Forge](https://ecadforge.app/?url=https%3A%2F%2Fgithub.com%2Fmyriadrf%2FLimeSDR-Mini%2Ftree%2Fmaster%2Fhardware%2F1v3&document=PCB%2FLimeSDR_Mini_1v3_Rounded.PcbDoc), without installing Altium.
+
 ## Licensing
 
 The hardware designs are licensed under a Creative Commons Attribution 3.0 Unported licence.
