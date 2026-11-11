@@ -1,7 +1,7 @@
 User Guide
 ##########
 
-The User Guide provides information that is specific to LimeSDR Mini v1 hardware. 
+The User Guide provides information that is specific to LimeSDR Mini v1 hardware.
 
 .. note::
    For usage information which is common to all LimeSDR devices, such as installing drivers, using the command line utilities, and software plug-ins and applications, please refer to the :external+quickstart:ref:`SDR Quick Start <index:introduction>`.
@@ -12,7 +12,7 @@ The User Guide provides information that is specific to LimeSDR Mini v1 hardware
 
    versions
    setup
-   clock 
+   clock
    software
    flashing
 
