@@ -17,7 +17,7 @@ There are several SPI interfaces with their slave devices:
 
 In the tables below are listed FPGA_SPI pins, schematic signal names, FPGA interconnections and I/O standards.
 
-.. list-table:: Table 5. FPGA_SPI interface pins
+.. list-table:: Table 7. FPGA_SPI interface pins
    :header-rows: 1
    :stub-columns: 1
 
@@ -48,7 +48,7 @@ In the tables below are listed FPGA_SPI pins, schematic signal names, FPGA inter
 
 In the tables below are listed FPGA_QSPI pins, schematic signal names, FPGA interconnections and I/O standards.
 
-.. list-table:: Table 6. FPGA_QSPI interface pins
+.. list-table:: Table 8. FPGA_QSPI interface pins
    :header-rows: 1
    :stub-columns: 1
 
@@ -79,7 +79,7 @@ In the tables below are listed FPGA_QSPI pins, schematic signal names, FPGA inte
 
 n the tables below are listed FPGA_I2C interface slave devices and their other information.
 
-.. list-table:: Table 7. FPGA_I2C interface pins
+.. list-table:: Table 9. FPGA_I2C interface pins
    :header-rows: 1
    :stub-columns: 1
 
@@ -101,7 +101,7 @@ n the tables below are listed FPGA_I2C interface slave devices and their other i
 
 8 GPIOs from FPGA are connected to 10 pin 0.05” header. Additional 2 pins are dedicated for power. Another 2 GPIOs are connected to 5 header on the board edge. In the tables below are listed FPGA_GPIO (J5) and FPGA_EGPIO (J6) information.
 
-.. list-table:: Table 8. FPGA GPIO connector (J5) pins
+.. list-table:: Table 10. FPGA GPIO connector (J5) pins
    :header-rows: 1
    :stub-columns: 1
 
@@ -162,7 +162,7 @@ n the tables below are listed FPGA_I2C interface slave devices and their other i
      - Selectable power net (3.3V or 5V). Default 3.3V
 
 
-.. list-table:: Table 9. FPGA GPIO connector (J5) pins
+.. list-table:: Table 11. FPGA GPIO connector (J5) pins
    :header-rows: 1
    :stub-columns: 1
 

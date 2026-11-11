@@ -27,21 +27,24 @@ RF Connections
 .. figure:: /images/LimeSDR-Mini_v1.2_RFCON.png
   :width: 600
   
-  Figure 3: LimeSDR Mini v1.x board top with RF connector positions
+  Figure 3. LimeSDR Mini v1.x board top with RF connector positions
 
-.. table:: Table 1. RF Connectors
+.. table:: Table 1. RF connectors
 
-  +------------------+--------------------+-------------+---------------------+-------------------------------+
-  | **Connector ID** | **Connector type** | **RF band** | **Frequency range** | **Note**                      |
-  +==================+====================+=============+=====================+===============================+
-  | J1               | SMA                | TX low      | 10 MHz - 2 GHz      | transmit low frequency range  |
-  |                  |                    +-------------+---------------------+-------------------------------+
-  |                  |                    | TX high     | 2 GHz - 3.5 GHz     | transmit high frequency range |
-  +------------------+--------------------+-------------+---------------------+-------------------------------+
-  | J2               | SMA                | RX wide     | 10 MHz - 2 MHz      | receive wide frequency range  |
-  |                  |                    +-------------+---------------------+-------------------------------+
-  |                  |                    | RX high     | 2 GHz - 3.5 GHz     | receive high frequency range  |
-  +------------------+--------------------+-------------+---------------------+-------------------------------+
+  +---------------+----------+--------------+----------+-----------------------+
+  | **Connector** | **Type** | **Function** | **Band** | **Recommended range** |
+  +===============+==========+==============+==========+=======================+
+  | J1            | SMA      | TX output    | TX low   | Below 2 GHz           |
+  |               |          |              +----------+-----------------------+
+  |               |          |              | TX high  | 2 GHz and above       |
+  +---------------+----------+--------------+----------+-----------------------+
+  | J2            | SMA      | RX input     | RX wide  | Below 2 GHz           |
+  |               |          |              +----------+-----------------------+
+  |               |          |              | RX high  | 2 GHz and above       |
+  +---------------+----------+--------------+----------+-----------------------+
+
+.. note::
+   The recommended frequency ranges are approximate values that cover most use cases, not hard limits of the RF paths. The optimum path may vary depending on other factors, such as the antenna and RF front-end parameters.
 
 .. warning::
    Care should be taken when connecting external RF signals to the RX inputs, to ensure that the maximum safe input power of +10 dBm is not exceeded, as this may cause permanent damage to the device.

@@ -3,9 +3,9 @@ JTAG
 
 To debug FPGA design, flash bitstream to FPGA and/or Flash memory JTAG header J4 or edge connector J3 are used. 
 
-JTAG header located on the PCB top side and attaches to the programmer using 10-pin, 0.05” spaced JTAG connector. By default its is not populated. JTAG header pins, schematic signal names, FPGA interconnections and I/O standards are listed in Table 10.
+JTAG header located on the PCB top side and attaches to the programmer using 10-pin, 0.05” spaced JTAG connector. By default its is not populated. JTAG header pins, schematic signal names, FPGA interconnections and I/O standards are listed in Table 12.
 
-.. list-table:: Table 10. JTAG header J4 pins
+.. list-table:: Table 12. JTAG header J4 pins
   :header-rows: 1
   :stub-columns: 1
 
@@ -65,9 +65,9 @@ JTAG header located on the PCB top side and attaches to the programmer using 10-
     -
     - Ground
 
-JTAG edge J3 connector located on the PCB top side and attaches to the programmer using 7-pin, 0.1” spaced JTAG connector. By default its is not populated. JTAG edge connector pins, schematic signal names, FPGA interconnections and I/O standards are listed in Table 11.
+JTAG edge J3 connector located on the PCB top side and attaches to the programmer using 7-pin, 0.1” spaced JTAG connector. By default its is not populated. JTAG edge connector pins, schematic signal names, FPGA interconnections and I/O standards are listed in Table 13.
 
-.. list-table:: Table 11. JTAG edge connector J3 pins
+.. list-table:: Table 13. JTAG edge connector J3 pins
   :header-rows: 1
   :stub-columns: 1
 

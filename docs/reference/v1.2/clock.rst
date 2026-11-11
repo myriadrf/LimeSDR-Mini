@@ -10,7 +10,7 @@ LimeSDR Mini board clock distribution block diagram is presented in Figure 6. Li
 
 VCTCXO frequency can be tuned by using DAC (IC9). Buffered VCTCXO clock is connected to RF transceiver, FPGA. Buffered VCTCXO clock is also connected to connector J9 (REF_CLK_OUT) and can be fed to external hardware for synchronisation. VCTCXO can be disconnected from clock buffer input (remove R59 and solder R62) and external reference clock can be supplied from connector J8 (REF_CLK_IN).
 
-.. table:: Table 3. LimeSDR Mini clock pins
+.. table:: Table 5. LimeSDR Mini clock pins
 
   +----------------------+------------------------+------------------+--------------+---------------------------------+
   |      **Source**      | **Schematic net name** | **I/O standard** | **FPGA pin** |         **Description**         |

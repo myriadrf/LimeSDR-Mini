@@ -5,9 +5,9 @@ Eight GPIOs from FPGA are connected to 10 pin 0.05” header. Additional 2 pins 
 
 FPGA_GPIO[7:4] are shared with TX and RX LEDs. Remove solder from solder bridges to disconnect LEDs from GPIOs lines.
 
-FPGA GPIO header (J3) information is listed in Table 12.
+FPGA GPIO header (J3) information is listed in Table 14.
 
-.. list-table:: Table 12. FPGA GPIO connector (J3) pins
+.. list-table:: Table 14. FPGA GPIO connector (J3) pins
    :header-rows: 1
    :stub-columns: 1
 
@@ -69,9 +69,9 @@ FPGA GPIO header (J3) information is listed in Table 12.
 
 Additional 2 GPIOs are connected to 5-pin header on the board edge.
 
-FPGA GPIO edge header (J4) information is listed in Table 13. 
+FPGA GPIO edge header (J4) information is listed in Table 15. 
 
-.. list-table:: Table 13. FPGA EGPIO connector (J4) pins
+.. list-table:: Table 15. FPGA EGPIO connector (J4) pins
    :header-rows: 1
    :stub-columns: 1
    
