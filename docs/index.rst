@@ -12,7 +12,7 @@ Introduction
 
 .. figure:: /images/limesdrmini-board-angle-1_png_gallery-lg.jpg
    :align: center
-   
+
 The LimeSDR Mini is a compact and cost-effective software-defined radio (SDR) platform engineered for advanced wireless communication research, prototyping, and development. The device is based on the Lime Microsystems LMS7002M RF transceiver, supporting a frequency range of 10 MHz to 3.5 GHz, full-duplex operation, and instantaneous bandwidths of up to 30.72 MHz.
 
 The digital processing architecture incorporates a Intel MAX 10 FPGA, which performs high-speed data handling, digital signal processing, and interface management between the RF front end and the host system. The FPGA enables flexible hardware-level customization, allowing implementation of user-defined processing pipelines and acceleration of computationally intensive tasks.
@@ -25,7 +25,7 @@ Specifications
 RF
 ==
 
-.. list-table:: 
+.. list-table::
    :header-rows: 1
    :stub-columns: 1
 
@@ -43,7 +43,7 @@ RF
      - Software configurable
    * - Sample depth
      - 12 bit
-     - 
+     -
    * - Sample rate
      - 30.72 MSPS
      -
@@ -64,7 +64,7 @@ USB 3.0 Type-A plug connector.
 Power Supply
 ============
 
-.. list-table:: 
+.. list-table::
    :header-rows: 1
    :stub-columns: 1
 
@@ -87,7 +87,7 @@ Power Supply
 Environmental
 =============
 
-.. list-table:: 
+.. list-table::
    :header-rows: 1
    :stub-columns: 1
 
@@ -101,7 +101,7 @@ Environmental
      - 0 °C to +70 °C
      - N/A
    * - Operating Humidity
-     - 10% to 90% RH  
+     - 10% to 90% RH
      - Non-condensing
 
 Mechanical
@@ -116,7 +116,7 @@ Devices
 =======
 
 * RF transceiver: Lime Microsystems LMS7002M
-* FPGA: Intel MAX 10 (10M16SAU169C8G 169-UBGA)	
+* FPGA: Intel MAX 10 (10M16SAU169C8G 169-UBGA)
 
   * 169-pin FBGA package
   * 16 K Les
@@ -135,7 +135,7 @@ Devices
 Clock system
 ============
 
-* 40.00MHz on board VCTCXO
+* 40.00 MHz onboard VCTCXO
 * VCTCXO can be tuned by onboard DAC
 * Reference clock input and output connectors (U.FL)
 
@@ -149,7 +149,7 @@ General user inputs/outputs:
 ============================
 
 * 2x Dual colour (RG) LEDs
-* 8x + 2x FPGA GPIO pinheaders (3.3V) (optional)
+* 8x + 2x FPGA GPIO pinheaders (3.3 V) (optional)
 
 Connections
 ===========
@@ -158,7 +158,7 @@ Connections
 * Coaxial RF (SMA female) connectors
 * FPGA GPIO headers (unpopulated)
 * FPGA JTAG connector (unpopulated)
-* FAN (5V default or 3.3V) connector
+* FAN (5 V default or 3.3 V) connector
 
 Purchasing
 **********

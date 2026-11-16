@@ -1,24 +1,24 @@
 Overview
 ########
 
-The heart of the LimeSDR Mini board is Intel MAX 10 (10M16SAU169C8G 169-UBGA) FPGA. It’s main function is to transfer digital data between the PC through a USB3.0 connector. The block diagram for LimeSDR-Mini board is presented in the Figure 3.
+The heart of the LimeSDR Mini board is Intel MAX 10 (10M16SAU169C8G 169-UBGA) FPGA. It’s main function is to transfer digital data between the PC through a USB 3.0 connector. The block diagram for LimeSDR Mini board is presented in the Figure 3.
 
 .. figure:: /images/LimeSDR-Mini_v1.1_block.png
   :width: 600
 
-  Figure 3: LimeSDR Mini v1.1 board block diagram
+  Figure 3. LimeSDR Mini v1.1 board block diagram
 
 This section contains component location description on the board. LimeSDR Mini v1.1 board picture with highlighted connectors and main components are presented in Figure 4 and Figure 5, respectively.
 
 .. figure:: /images/LimeSDR-Mini_v1.1_top_componens.png
   :width: 600
 
-  Figure 4: LimeSDR Mini v1.1 board top connectors and main components
+  Figure 4. LimeSDR Mini v1.1 board top connectors and main components
 
 .. figure:: /images/LimeSDR-Mini_v1.1_bot_componens.png
   :width: 600
 
-  Figure 5: LimeSDR Mini v1.1 board bottom connectors and main components
+  Figure 5. LimeSDR Mini v1.1 board bottom connectors and main components
 
 Description of board components is given in the Table 1.
 
@@ -45,35 +45,35 @@ Description of board components is given in the Table 1.
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
   | J4                  | JTAG chain connector    | FPGA programming pin header for Altera USB-Blaster download cable, 0.05” pitch                                          |
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
-  | LED1 or LED2        | Green / red LED         | USB3.0 microcontroller (IC13) boot configuration (PMODE0[2:0]) resistors. Default mode: SPI boot,                       |
+  | LED1 or LED2        | Green / red LED         | USB 3.0 microcontroller (IC13) boot configuration (PMODE0[2:0]) resistors. Default mode: SPI boot,                      |
   |                     |                         |                                                                                                                         |
   |                     |                         | On Failure - USB Boot                                                                                                   |
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
   |                                                                      **General User Input/Output**                                                                      |
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
-  | J5                  | Pin header              | 8x FPGA GPIOs, 3.3V, 0.05” pitch                                                                                        |
+  | J5                  | Pin header              | 8x FPGA GPIOs, 3.3 V, 0.05” pitch                                                                                       |
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
-  | J6                  | Pin header              | 2x FPGA GPIOs on the board edge, 3.3V, 0.1” pitch                                                                       |
+  | J6                  | Pin header              | 2x FPGA GPIOs on the board edge, 3.3 V, 0.1” pitch                                                                      |
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
-  | J10                 | Pin header              | 5V (3.3V voltage can be chosen by resistors) fan connection pin headers, 0.1” pitch                                     |
+  | J10                 | Pin header              | 5 V (3.3 V voltage can be chosen by resistors) fan connection pin headers, 0.1” pitch                                   |
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
   |                                                                            **Memory Devices**                                                                           |
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
-  | IC2                 | IC                      | I²C EEPROM Memory 128Kb (16K x 8), connected to RF transceiver I2C bus                                                  |
+  | IC2                 | IC                      | I²C EEPROM Memory 128Kb (16K x 8), connected to RF transceiver I²C bus                                                  |
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
-  | IC10                | IC                      | I²C EEPROM Memory 128Kb (16K x 8), connected to FPGA I2C bus                                                            |
+  | IC10                | IC                      | I²C EEPROM Memory 128Kb (16K x 8), connected to FPGA I²C bus                                                            |
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
   | IC11                | IC11                    | Quad SPI Flash Memory 4Mb (512K x 8), connected to FPGA SPI                                                             |
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
   |                                                                         **Communication Ports**                                                                         |
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
-  | J7                  | USB3.0 connector        | USB3.0 connector                                                                                                        |
+  | J7                  | USB 3.0 connector       | USB 3.0 connector                                                                                                       |
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
   |                                                                           **Clock Circuitry**                                                                           |
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
   | XO1                 | VCTCXO                  | 40.00 MHz Voltage Controlled Temperature Compensated Crystal Oscillatorc                                                |
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
-  | IC9                 | IC                      | DAC for TCXO (XT4) frequency tuning                                                                                     |
+  | IC9                 | IC                      | 8-bit DAC (DAC5311) for VCTCXO (XO1) frequency tuning                                                                   |
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
   | IC7                 | IC7                     | Clock buffer                                                                                                            |
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
@@ -83,11 +83,11 @@ Description of board components is given in the Table 1.
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
   |                                                                        **Reference clock output**                                                                       |
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
-  | IC12                | IC                      | Switching regulator (1.8V)                                                                                              |
+  | IC12                | IC                      | Switching regulator (1.8 V)                                                                                             |
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
-  | IC13                | IC                      | Switching regulator (3.3V)                                                                                              |
+  | IC13                | IC                      | Switching regulator (3.3 V)                                                                                             |
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
-  | IC14                | IC                      | Linear regulator (2.5V)                                                                                                 |
+  | IC14                | IC                      | Linear regulator (2.5 V)                                                                                                |
   +---------------------+-------------------------+-------------------------------------------------------------------------------------------------------------------------+
 
 A more detailed description is provided in the following sections.
